@@ -5,10 +5,19 @@
   align-items: center;
   padding: 4rem 8%;
   color: #fff;
-  background: linear-gradient(120deg, #b351bc, #b252b2);
+  background: linear-gradient(120deg, #cc46b6, #b252b2);
   min-height: 100vh;
 }
 
+.image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 100px;
+  border-radius: 45%;
+    gap: 20px; 
+}
 
 .content {
   max-width: 600px;
@@ -48,7 +57,7 @@
 }
 
 .primaryBtn {
-  background: linear-gradient(90deg, #784ba0, #ff3cac);
+  background: linear-gradient(90deg, #cd81e0, #ff3cac);
   color: white;
   padding: 0.8rem 1.6rem;
   border: none;
@@ -64,5 +73,12 @@
 }
 
 .secondaryBtn {
-  border: 2px solid #d291ff
+  background: linear-gradient(90deg, #784ba0, #ff3cac);
+  color: white;
+  padding: 0.8rem 1.6rem;
+  border: none;
+  border-radius: 10px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s ease;
 }

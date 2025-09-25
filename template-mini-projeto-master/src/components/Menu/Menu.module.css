@@ -5,8 +5,27 @@
   align-items: center;
 }
 
-.menu{
-  display: flex;
-  list-style: none;
-  gap: 16px;
+.menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    
+}
+.nav {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 14px 20px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.nav a {
+    text-decoration: none;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+.nav a:hover {
+    transform: translateY(-2px);
 }

@@ -10,10 +10,11 @@ export default function Hero() {
   }
 
   return (
-    <section className={styles.hero}>
+    <section id="sobre" className={styles.hero}>
      
       <div className={styles.content}>
         <h2 className={styles.subtitle}>Olá, eu sou</h2>
+        <img src="/fotominha.jpg" alt="Foto de Luana Rodrigues" className={styles.image} />
         <h1 className={styles.title}>Luana Rodrigues</h1>
         <p className={styles.role}>Frontend Developer</p>
 
@@ -46,11 +47,7 @@ export default function Hero() {
 
       
       <div className={styles.imageWrapper}>
-        {/* <img 
-          src={minhaFoto} 
-          alt="Foto de Luana Rodrigues" 
-          className={styles.image} 
-        /> */}
+      
       </div>
     </section>
   );

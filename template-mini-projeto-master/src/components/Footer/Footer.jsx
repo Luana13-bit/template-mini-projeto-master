@@ -1,7 +1,8 @@
+import styles from './Footer.module.css';
 export default function Footer() {
   return (
-    <footer>
-      <p>Feito com ❤️ por Luana</p>
+    <footer className={styles.footer}>
+     <p>Feito com ❤️ por Luana Rodrigues!</p>
     </footer>
   );
 }
